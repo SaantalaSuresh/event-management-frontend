@@ -1,0 +1,85 @@
+
+    .event-list-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      
+
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .primary-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .primary-button:hover {
+      background-color: #0056b3;
+    }
+    
+    .event-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .event-item {
+      background-color: white;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.3s;
+    }
+    
+    .event-item:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .event-info {
+      flex: 1;
+    }
+    
+    .event-actions {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .edit-button, .delete-button {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .edit-button {
+      background-color: #ffc107;
+      color: white;
+    }
+    
+    .edit-button:hover {
+      background-color: #e0a800;
+    }
+    
+    .delete-button {
+      background-color: #dc3545;
+      color: white;
+    }
+    
+    .delete-button:hover {
+      background-color: #c82333;
+    }
+    
